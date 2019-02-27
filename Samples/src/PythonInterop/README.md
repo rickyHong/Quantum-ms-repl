@@ -6,3 +6,11 @@ For details on how to get started with Python and Q#, please see the [Getting St
 
 ## Running the Sample ##
 
+Once you have the Python client up and running, the host program for this sample can be run like a normal Python script:
+
+NB: If you installed the `qsharp` package into a virtual env or conda env, make sure that you have the right environment activated when you run the sample.
+
+```bash
+cd Quantum/Samples/src/PythonInterop/
+python host.py
+```
