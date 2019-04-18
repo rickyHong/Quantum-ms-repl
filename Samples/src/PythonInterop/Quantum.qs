@@ -1,8 +1,10 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 namespace Microsoft.Quantum.Samples.Python {
-    open Microsoft.Quantum.Primitive;
+    open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
+    open Microsoft.Quantum.Math;
+    open Microsoft.Quantum.Preparation;
 
     function HelloWorld (pauli : Pauli) : Unit {
         Message($"Hello, world! {pauli}");
